@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Title -->
+    <title>Mohammed Waleed</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS.Js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+    <header data-aos="fade-down" data-aos-duration="1100">
+        <img src="imgs/avatar.webp" alt="profile">
+        <div class="line"></div>
+        <div id="navMenu">
+          <li><a href="#section1" class="nav-link">Home</a></li>
+          <li><a href="#section2" class="nav-link">About Me</a></li>
+          <li><a href="#section3" class="nav-link">Gallery</a></li>
+          <li><a href="#section4" class="nav-link">Why Do You Need Me ?</a></li>          
+        </div>
+        <div class="line"></div>
+        <a href="#section5"><button>Contact Me</button></a>
+        <div id="menuToggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+  <!-- Timeline -->
+<div class="main-timeline-container">
+  <div class="timeline-container">
+    <div class="timeline-line"></div>
+    <div class="timeline-dot dot-1" data-target="section1"></div>
+    <div class="timeline-dot dot-2" data-target="section2"></div>
+    <div class="timeline-dot dot-3" data-target="section3"></div>
+    <div class="timeline-dot dot-4" data-target="section4"></div>
+    <div class="timeline-dot dot-5" data-target="section5"></div>
+  </div>
+  </div>
+
+  <!-- Go To Top -->
+  <button id="scrollTopBtn" title="Go to top">
+    <i class="fa-solid fa-angles-up"></i>
+  </button>
+  
+
+<!-- Hero Section -->
+<section id="section1" class="hero">
+    <div data-aos="fade-right" data-aos-duration="1100" class="hero-content">
+      <h3>Hello my name is</h3>
+      <h1><span>Mohammed Waleed</span></h1>
+      <h3>A Front End Developer</h3>
+      <div class="hero-buttons">
+        <a href="#section2"><button class="btn-purple"><i class="fa-solid fa-circle-info"></i> Who Am I ?</button></a>
+        <button class="btn-outline"><i class="fa-solid fa-id-card"></i> Download CV</button>
+      </div>
+    </div>
+    <div data-aos="fade-left" data-aos-duration="1100" class="hero-img">
+    <img src="imgs/ill.webp" alt="img">
+    </div>
+    <div data-aos="zoom-in" data-aos-duration="1100" class="social-icons">
+      <a href="https://github.com/muhamed-walid"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.facebook.com/xmowalid"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/mw-dev/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </section>
+
+  <section id="section2">
+    <div data-aos="zoom-in" data-aos-duration="1100" style="margin-top: 120px;" class="title">
+      <h1>Who Am I ?</h1>
+      <h2>About Me</h2>
+    </div>
+    <div class="about-wrapper">
+    <div class="about">
+      <img data-aos="fade-right" data-aos-duration="1100" src="imgs/me.webp" alt="Mohammed Waleed's Picture">
+      <div>
+        <h1 data-aos="fade-in" data-aos-duration="2000">Mohammed Waleed</h1>
+        <p data-aos="fade-in" data-aos-duration="2000">I'm <span>Mohammed Waleed</span>, a <span>13-year-old Front-End Developer</span> based in Obour City, Qalubia.I specialize in <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, and <span>Bootstrap</span>, and I'm currently enhancing my skills by learning React. I also have a foundational understanding of PHP and SQL. I'm passionate about developing clean, responsive, and user-focused websites. My goal is to grow into a successful and recognized programmer in the tech industry.</p>
+      </div>
+    </div>
+    </div>
+    <div class="skills-wrapper">
+    <div class="skills">
+      <div data-aos="fade-in" data-aos-duration="500" class="html" id="skill">
+        <div class="skill-logo">
+        <h2><span>HTML</span></h2>
+        <i class="fab fa-html5"></i>
+        </div>
+        <div class="line"></div>
+        <div>
+        <h1>40<span>+ Projects</span></h1>
+        <p>I started learning it in 2022 from the Zero Web School channel.</p>
+      </div>
+      </div>
+
+      <div data-aos="fade-out" data-aos-duration="500" class="css" id="skill">
+        <div class="skill-logo">
+        <h2><span>CSS</span></h2>
+        <i class="fab fa-css3-alt"></i>
+        </div>
+        <div class="line"></div>
+        <div>
+        <h1>40<span>+ Projects</span></h1>
+        <p>I started learning it in 2022 after learning html directly from Zero Web School and Abd El Rahman Gamal channels.</p>
+      </div>
+      </div>
+
+      <div data-aos="fade-in" data-aos-duration="500" class="js" id="skill">
+        <div class="skill-logo">
+        <h2><span>JavaScript</span></h2>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/></svg>
+        </div>
+        <div class="line"></div>
+        <div>
+        <h1>25<span>+ Projects</span></h1>
+        <p>I started learning it in late 2022 through Zero Web School channel.</p>
+      </div>
+      </div>
+      <div data-aos="fade-out" data-aos-duration="500" class="bootstrap" id="skill">
+        <div class="skill-logo">
+        <h2><span>Bootstrap</span></h2>
+        <i class="fab fa-bootstrap"></i>
+        </div>
+        <div class="line"></div>
+        <div>
+        <h1>20<span>+ Projects</span></h1>
+        <p>I started learning it in 2024 through Abd El Rahman Gamal channel.</p>
+      </div>
+      </div>
+
+      <div data-aos="fade-in" data-aos-duration="500" class="react" id="skill">
+        <div class="skill-logo">
+        <i class="fab fa-react"></i>
+        </div>
+        <div class="line"></div>
+        <div>
+        <h1>Still learning</h1>
+      </div>
+      </div>
+
+      <div data-aos="fade-out" data-aos-duration="500" class="php" id="skill">
+        <div class="skill-logo">
+        <i class="fab fa-php"></i>
+        <div class="line"></div>
+        <i class="fa-solid fa-database"></i>
+        </div>
+        <div class="line"></div>
+        <div>
+        <h1>Basic understanding</h1>
+      </div>
+      </div>
+
+      <div data-aos="fade-in" data-aos-duration="500" class="figma" id="skill">
+        <div class="skill-logo">
+          <img src="imgs/figma.webp" alt="figma">
+        </div>
+      </div>
+
+      <div align="center" data-aos="fade-in" data-aos-duration="500" class="github" id="skill">
+        <div class="skill-logo">
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="section3">
+    <div data-aos="zoom-in" data-aos-duration="1100" style="margin-top: 120px;" class="title">
+      <h1>Projects</h1>
+      <h2>Gallery</h2>
+    </div>
+    <div class="projects">
+
+      
+      <div data-aos="fade-down" data-aos-duration="1100" class="project">
+        <img src="imgs/p-1.webp" alt="moraweg company">
+      <div>
+        <h1>Moraweg Company Website</h1>
+        <br>
+        <div class="line"></div><br>
+        <p>I worked in the front end side to develope this site, I created more than  8 pages</p>
+        
+        <div class="tools">
+         <i id="html" class="fab fa-html5"></i>
+         <i id="css" class="fab fa-css3-alt"></i>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/></svg>
+        </div>
+ 
+        <a href="https://blue-memo.github.io/moraweg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1100" class="project">
+        <img src="imgs/p-2.webp" alt="Islamic website">
+      <div>
+        <div class="project-link">
+        <h1>Islamic Website</h1>
+        </div>
+        <br>
+        <div class="line"></div><br>
+        <p>Simple islamic website that contain quran, Books, Azkar, And more.</p>
+        
+        <div class="tools">
+         <i id="html" class="fab fa-html5"></i>
+         <i id="css" class="fab fa-css3-alt"></i>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/></svg>
+        </div>
+      </div>
+      <a href="https://muslim-box.vercel.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1100" class="project">
+        <img src="imgs/p-3.webp" alt="Courses website">
+      <div>
+        <div class="project-link">
+        <h1>Courses Hub Website</h1>
+        </div>
+        <br>
+        <div class="line"></div><br>
+        <p>courses website that show many courses</p>
+        
+        <div class="tools">
+         <i id="html" class="fab fa-html5"></i>
+         <i id="css" class="fab fa-css3-alt"></i>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/></svg>
+        </div>
+      </div>
+      <a href="https://courses-hub.vercel.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1100" class="project">
+        <img src="imgs/p-4.webp" alt="Games website">
+      <div>
+        <div class="project-link">
+        <h1>Games Website</h1>
+      </div>
+        <br>
+        <div class="line"></div><br>
+        <p>Games Website for a small game developer, Contain many small games</p>
+        
+        <div class="tools">
+         <i id="html" class="fab fa-html5"></i>
+         <i id="css" class="fab fa-css3-alt"></i>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/></svg>
+        </div>
+      </div>
+      <a href="https://blue-memo.github.io/AbdoGameZone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1100" class="project">
+        <img src="imgs/p-5.webp" alt="Youtube clone">
+      <div>
+        <div class="project-link">
+        <h1>YouTube Clone Website</h1>
+      </div>
+        <br>
+        <div class="line"></div><br>
+        <p>Clone of YouTube with a different colors</p>
+        
+        <div class="tools">
+         <i id="html" class="fab fa-html5"></i>
+         <i id="css" class="fab fa-css3-alt"></i>
+        </div>
+      </div>
+      <a href="https://muhamed-walid.github.io/MW-YouTube/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1100" class="project">
+        <img src="imgs/p-6.webp" alt="! أدعم فلسطين ">
+      <div>
+        <div class="project-link">
+        <h1>Palestine Flag</h1>
+      </div>
+        <br>
+        <div class="line"></div><br>
+        <p>Palestine flag using HTML, And CSS.</p>
+        
+        <div class="tools">
+         <i id="html" class="fab fa-html5"></i>
+         <i id="css" class="fab fa-css3-alt"></i>
+       </div>
+      </div>
+      <a href="https://muhamed-walid.github.io/palestine/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <div class="title">
+        <h1>Projects while learning</h1>
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1100" class="project">
+        <img src="imgs/p-7.webp" alt="haya karima">
+      <div>
+        <div class="project-link">
+        <h1>Haya Karima Website</h1>
+      </div>
+        <br>
+        <div class="line"></div><br>
+        <p>Simple website about haya karima</p>
+        
+        <div class="tools">
+         <i id="html" class="fab fa-html5"></i>
+         <i id="css" class="fab fa-css3-alt"></i>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/></svg>
+        </div>
+      </div>
+      <a href="https://muhamed-walid.github.io/HayaKarima-1/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1100" class="project">
+        <img src="imgs/p-8.webp" alt="qr code generator">
+      <div>
+        <div class="project-link">
+        <h1>QR Code Generator Website</h1>
+      </div>
+        <br>
+        <div class="line"></div><br>
+        <p>simple QR Code Generator Website</p>
+        
+        <div class="tools">
+         <i id="html" class="fab fa-html5"></i>
+         <i id="css" class="fab fa-css3-alt"></i>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/></svg>
+        </div>
+      </div>
+      <a href="https://muhamed-walid.github.io/QrCodeGenerator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1100" class="project">
+        <img src="imgs/p-9.webp" alt="school website">
+      <div>
+        <div class="project-link">
+        <h1>School website</h1>
+      </div>
+        <br>
+        <div class="line"></div><br>
+        <p>Simple School Website</p>
+        
+        <div class="tools">
+         <i id="html" class="fab fa-html5"></i>
+         <i id="css" class="fab fa-css3-alt"></i>
+        </div>
+      </div>
+      <a href="https://muhamed-walid.github.io/SimpleWebsite/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="1100" class="project">
+      <img src="imgs/p-10.webp" alt="tools website">
+    <div>
+      <div class="project-link">
+      <h1>Simple tools website</h1>
+    </div>
+      <br>
+      <div class="line"></div><br>
+      <p>Simple tools website that contain many static pages</p>
+      
+      <div class="tools">
+       <i id="html" class="fab fa-html5"></i>
+       <i id="css" class="fab fa-css3-alt"></i>
+      </div>
+    </div>
+    <a href="https://muhamed-walid.github.io/mw-tools"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="1100" class="project">
+      <img src="imgs/p-11.webp" alt="ramadan website">
+    <div>
+      <div class="project-link">
+      <h1>Simple ramadan website</h1>
+    </div>
+      <br>
+      <div class="line"></div><br>
+      <p>Simple website to create ramadan image</p>
+      
+      <div class="tools">
+       <i id="html" class="fab fa-html5"></i>
+       <i id="css" class="fab fa-css3-alt"></i>
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5L152 385.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1V381.4c0 43.6-25.6 63.5-62.9 63.5zm85.8-43L301 382.1c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43z"/></svg>
+      </div>
+    </div>
+    <a href="https://blue-memo.github.io/ramadan/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    <center>
+      <ul>
+      <h2>You can see all projects here!</h2><br> 
+        <li><a href="https://github.com/muhamed-walid">https://github.com/muhamed-walid</a></li>
+        <li><a href="https://github.com/blue-memo">https://github.com/blue-memo</a></li>
+      </ul>
+    </center>
+  </section>
+
+  <section id="section4">
+  <div data-aos="zoom-in" data-aos-duration="1100" class="title">
+    <h1>Why do you need me ?</h1>
+    <h2>Features</h2>
+  </div>
+  <div class="features-wrapper">
+  <div class="features">
+    <div data-aos="fade" data-aos-duration="1100" class="feature">
+      <div class="f-number"><h2>1</h2></div>
+      <h1>Professional work that shines in the crowd</h1>
+      <div class="line"></div>
+      <p>I offer you professional designs/services that attract <br>attention and make your work <br>speak for you.</p>
+    </div>
+
+    <div data-aos="fade" data-aos-duration="1100" class="feature">
+      <div class="f-number"><h2>2</h2></div>
+      <h1>Support and flexibility in dealing</h1>
+      <div class="line"></div>
+      <p>I don't just work with you,<br> I'm with you step by step <br>until you're 100% satisfied.</p>
+    </div>
+
+    <div data-aos="fade" data-aos-duration="1100" class="feature">
+      <div class="f-number"><h2>3</h2></div>
+      <h1>Prices that suit you</h1>
+      <div class="line"></div>
+      <p>High quality and affordable prices - we love growing with customers, not at their expense.</p>
+    </div>
+  </div>
+  </div>
+  </section>
+
+  <section id="section5">
+    <div data-aos="zoom-in" data-aos-duration="1100" class="title">
+      <h1>Let's work together !</h1>
+      <h2>Contact Me</h2>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact">
+
+      <div data-aos="fade" data-aos-duration="1100" class="contact-info">
+        <div class="c-icon-container">
+          
+        <a href="https://wa.me/+201282758797">
+        <div class="c-icon">
+          <i class="fa-solid fa-square-phone"></i>
+          <h3>0128 275 8797</h3>
+        </div>
+        </a>
+
+        <div class="c-icon">
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="c-icon">
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="embed-map-responsive"><div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=obour%20city&t=p&z=11&ie=UTF8&iwloc=B&output=embed"></iframe><a href="https://sprunkiretake.net" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">sprunki retake</a></div><style>.embed-map-responsive{position:relative;text-align:right;width:100%;height:0;padding-bottom:66.66666666666666%;}.embed-map-container{overflow:hidden;background:none!important;width:100%;height:100%;position:absolute;top:0;left:0;}.embed-map-frame{width:100%!important;height:100%!important;position:absolute;top:0;left:0;}</style></div>
+      </div>
+      
+        <form data-aos="fade" data-aos-duration="1100" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="97467983-5eb5-46fe-ab4c-b480f917a19e">
+          <div style="margin-top: 0;" class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input type="text" name="name" placeholder=" Enter your name">
+          </div>
+
+          <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input type="email"  name="email" placeholder=" Enter your email">
+          </div>
+          <textarea name="message" placeholder=" Enter your message"></textarea>
+        <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer data-aos="fade" data-aos-duration="1100">
+    <div align="center">
+      <img align="center" src="imgs/footer-logo.webp" alt="footer logo">
+      <h2><span>Mohammed Waleed</span></h2>
+      <p>13yo Front-End Dev. from Egypt</p>
+    </div>
+    <ul>
+      <h2>Some projects</h2>
+      <li><a href="https://blue-memo.github.io/moraweg">Moraweg Website</a></li>
+      <li><a href="https://muslim-box.vercel.app">Islamic Website</a></li>
+      <li><a href="https://courses-hub.vercel.app">Courses Website</a></li>
+    </ul>
+    <ul>
+      <h2>Contact Me</h2>
+      <li><a href="https://wa.me/+201282758797">0128 275 8797</a></li>
+        <a href="https://github.com/muhamed-walid"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/xmowalid"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/mw-dev/"><i class="fa-brands fa-linkedin"></i></a>
+    </ul>
+  </footer>
+
+<!-- JavaScript -->
+<script src="main.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
