@@ -809,6 +809,9 @@ section{
     .feature p{
         font-size: 22px !important;
     }
+    .title h1{
+        font-size: 50px !important;
+    }
 }
 .project h1{
     font-size: 27px;
