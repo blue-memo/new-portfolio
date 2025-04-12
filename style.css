@@ -785,6 +785,28 @@ section{
         border-radius: 10px 10px 0px 0px !important;
     }
 }
+@media(max-width:426px){
+    .project{
+        max-width: 300px;
+    }
+    .project h1{
+        font-size: 25px !important;
+    }
+    .project p{
+        font-size: 17px !important;
+    }
+    .project i, .project svg{
+        font-size: 30px !important;
+        width: 25px !important;
+    }
+    .project a{
+        width: 20px;
+        height: 20px;
+    }
+    .project a i{
+        font-size: 21px !important;
+    }
+}
 .project h1{
     font-size: 27px;
     font-weight: bold; 
