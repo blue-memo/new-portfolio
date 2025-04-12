@@ -330,7 +330,7 @@ header button:hover {
 }
 .btn-purple {
     background: #5800FF;
-    padding: 10px 15px 10px 15px;
+    padding: 10px;
     border: none;
     font-size: 18px;
     border-radius: 10px;
@@ -339,6 +339,7 @@ header button:hover {
     align-items: center;
     gap: 8px;
     width: 180px;
+    height: 43px;
 }
 
 .btn-outline {
@@ -352,6 +353,7 @@ header button:hover {
     align-items: center;
     gap: 8px;
     width: 180px;
+    height: 43px;
 }
 
 .social-icons {
@@ -456,6 +458,7 @@ section{
 }
 .title h2{
     position: absolute;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
