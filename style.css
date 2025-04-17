@@ -73,7 +73,7 @@ header{
     width: 90%;
     border: 1px solid #ffffff09;
     max-width: 1100px;
-    background: #11003133;
+    background:#11003171;
     backdrop-filter: blur(5px);
     margin: auto;
     box-shadow: 0px 0px 20px #00000050;
@@ -339,7 +339,7 @@ header button:hover {
     align-items: center;
     gap: 8px;
     width: 180px;
-    height: 43px;
+    height: 40px;
 }
 
 .btn-outline {
@@ -353,7 +353,7 @@ header button:hover {
     align-items: center;
     gap: 8px;
     width: 180px;
-    height: 43px;
+    height: 40px;
 }
 
 .social-icons {
@@ -863,7 +863,7 @@ section{
     color: #0077FF;
 }
 #section3 ul h2{
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 50px;
     text-shadow: 0px 0px 50px #5800FF;
     background: #5800FF;
@@ -872,7 +872,7 @@ section{
 #section3 ul li a{
     font-weight: bold;
     text-decoration: 2px underline #5800FF;
-    font-size: 17px;
+    font-size: 22px;
     margin-top: 10px;
 }
 /*=== Features section ===*/
